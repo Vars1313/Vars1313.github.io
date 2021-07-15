@@ -1,0 +1,100 @@
+.leftside {
+    width: 200px;
+}
+.rightside {
+    width: 1122px;
+}
+.rightside-header {
+    width: 1122px;
+    height: 165px;
+    background: #18B587 0 0 no-repeat padding-box;
+    text-align: center;
+}
+.logo-text {
+    font-family: "Muli",sans-serif, bold;
+    font-size: 30px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.logo-text-img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 32px;
+}
+.rightside-main {
+    width: 1122px;
+    height: 1097px;
+    background: #F8F8F8 0 0 no-repeat padding-box;
+}
+.main-title {
+    font-family: "Muli",sans-serif, bold;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+}
+.rightside-main-text {
+    font-family: "Muli",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #393939;
+    text-align: center;
+}
+.card1 {
+    width: 747px;
+    height: 137px;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 0 6px #00000029;
+}
+.card2 {
+    width: 747px;
+    height: 104px;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 0 6px #00000029;
+}
+.card3 {
+    width: 747px;
+    height: 124px;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 0 6px #00000029;
+}
+
+.card-img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 58px;
+
+}
+.card-text h5 {
+    text-align: left;
+    width: 606px;
+    font-family: "Muli",sans-serif,bold;
+    font-size: 18px;
+    font-weight: 600;
+}
+.card-text p {
+    text-align: left;
+    width: 606px;
+    height: 60px;
+    font-family: "Muli",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #393939;
+}
+.subscribe-btn {
+    width: 143px;
+    height: 40px;
+    background-color: #18B587;
+    border: none;
+    color: #FFFFFF;
+    font-family: "Muli",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.price-text {
+    color: #F53C6F;
+    font-family: "Muli",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
