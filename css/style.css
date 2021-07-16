@@ -1,12 +1,14 @@
 .leftside {
-    width: 200px;
+    max-width: 200px;
+    width: 100%;
 }
-.rightside {
-    width: 1122px;
+.rightside{
+    max-width: 1122px;
+    width: 100%;
 }
 .rightside-header {
-    width: 1122px;
-    height: 165px;
+    width: 100%;
+    max-height: 165px;
     background: #18B587 0 0 no-repeat padding-box;
     text-align: center;
 }
@@ -22,8 +24,7 @@
     width: 32px;
 }
 .rightside-main {
-    width: 1122px;
-    height: 1097px;
+    width: 100%;
     background: #F8F8F8 0 0 no-repeat padding-box;
 }
 .main-title {
@@ -40,13 +41,15 @@
     color: #393939;
     text-align: center;
 }
-.card1 {
-    width: 747px;
-    height: 137px;
+.melt-card {
+    max-width: 747px;
+    width: 100%;
+    min-height: 104px;
+    height: auto;
     background: #FFFFFF 0 0 no-repeat padding-box;
     box-shadow: 0 0 6px #00000029;
 }
-.card2 {
+/* .card2 {
     width: 747px;
     height: 104px;
     background: #FFFFFF 0 0 no-repeat padding-box;
@@ -57,25 +60,28 @@
     height: 124px;
     background: #FFFFFF 0 0 no-repeat padding-box;
     box-shadow: 0 0 6px #00000029;
-}
+} */
 
-.card-img {
+.melt-card-img img {
     max-width: 100%;
     max-height: 100%;
-    width: 58px;
 
+}
+.melt-card-img {
+    width: 58px;
+}
+.card-text {    
+    max-width: 606px;
+    width: 100%;
 }
 .card-text h5 {
     text-align: left;
-    width: 606px;
     font-family: "Muli",sans-serif,bold;
     font-size: 18px;
     font-weight: 600;
 }
 .card-text p {
     text-align: left;
-    width: 606px;
-    height: 60px;
     font-family: "Muli",sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -98,3 +104,48 @@
     font-weight: 400;
     text-align: center;
 }
+
+
+
+@media (max-width: 768px) { 
+    .card-text h5 {
+        font-size: 16px;
+    }
+    .card-text p {
+        font-size: 12px;
+    }
+    .main-title {
+        font-size: 18px;
+    }
+    .rightside-main-text {
+        font-size: 14px;
+    }
+    .subscribe-btn {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .melt-card-img  {
+        width: 40px;
+    
+    }
+ }
+ @media (max-width: 576px) {   
+    .card-text h5 {
+        font-size: 12px;
+    }
+    .card-text p {
+        font-size: 10px;
+    }
+    .main-title {
+        font-size: 14px;
+    }
+    .rightside-main-text {
+        font-size: 12px;
+    }
+    .melt-card-img  {
+        width: 30px;
+    
+    }
+     
+  }
